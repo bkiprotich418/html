@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,25 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .title{
+        color: rgb(65, 230, 50);
+    }
+
+    .skills{
+        color: rgb(65, 230, 50);
+    }
+
+    .education{
+        color: rgb(65, 230, 50);
+    }
+
+    .school{
+        color: rgb(25, 150, 233);
+    }
+
+    .experience{
+        color: rgb(65, 230, 50);
+    }
+    .company{
+        color: rgb(25, 150, 233);
+    }
+
+    .internet{
+        color: rgb(65, 230, 50);
+    }
+</style>
 <body>
     <h1>Your name</h1>
-    <p>Junior frontend developer</p>
+    <p class="title">Junior frontend developer</p>
 
     <p>123 Your Street</p>
     <p>Your City, ST 12345</p>
     <p>(123)456-7890</p>
     <p>no_reply@example.com</p>
 
-    <h4>Skills</h4>
+    <h4 class="skills">Skills</h4>
     <p>HTML, CSS, Javascript, Acceseibility, Figma to design, Responsive web design, Technical writing, Presentation</p>
 
-    <h4>Education</h4>
-    <P>School name, Location - Degree</P>
+    <h4 class="education">Education</h4>
+    <P class="school">School name, Location - Degree</P>
     <p>Month 20xx to month 20xx</p>
     <p> List of exciting things you diid at university</p>
 
-    <h4>Experience</h4>
-    <p>Company Name, Location - Job title</p>
+    <h4 class="experience">Experience</h4>
+    <p class="company">Company Name, Location - Job title</p>
     <p>Month 20xx to month 20xx</p>
     <ul>
         <li>List of achievements</li>
@@ -32,7 +61,7 @@
     </ul>
     <p>Skills: List of skills used or gained at this company</p>
 
-    <h4>Across the internet</h4>
+    <h4 class="internet">Across the internet</h4>
     <p>Add your LinkedIn, Github profile links</p>
 </body>
 </html>
